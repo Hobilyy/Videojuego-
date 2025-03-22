@@ -29,10 +29,10 @@ function preload() {
     // Cargamos las imágenes y sprites que utilizaremos en el juego
     this.load.image('background', '/Assets/backgrounds/fonda.jpg'); 
     this.load.image('platform', 'plataformas.png');
-    this.load.spritesheet('player_right', '/Assets/sprites/Skin_Baikal/RightBaikal.png', { frameWidth: 256, frameHeight: 256 });
-    this.load.spritesheet('player_left', '/Assets/sprites/Skin_Baikal/LeftBaikal.png', { frameWidth: 256, frameHeight: 256 });
-    this.load.spritesheet('player_jump', '/Assets/sprites/Skin_Baikal/Baikal_Salto.png', { frameWidth: 256, frameHeight: 256 });
-    this.load.spritesheet('player_idle', '/Assets/sprites/Skin_Baikal/Baikai_Quieta (1).png', { frameWidth: 256, frameHeight: 256 });
+    this.load.spritesheet('player_right', 'Assets/sprites/Skin_Baikal/RightBaikal.png', { frameWidth: 256, frameHeight: 256 });
+    this.load.spritesheet('player_left', 'Assets/sprites/Skin_Baikal/LeftBaikal.png', { frameWidth: 256, frameHeight: 256 });
+    this.load.spritesheet('player_jump', 'Assets/sprites/Skin_Baikal/Baikal_Salto.png', { frameWidth: 256, frameHeight: 256 });
+    this.load.spritesheet('player_idle', 'Assets/sprites/Skin_Baikal/Baikai_Quieta (1).png', { frameWidth: 256, frameHeight: 256 });
 }
 
 function create() {
