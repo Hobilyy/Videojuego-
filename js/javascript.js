@@ -27,7 +27,7 @@ let platforms; // Ahora se inicializa con la clase
 
 function preload() {
     // Cargamos las imágenes y sprites que utilizaremos en el juego
-    this.load.image('background', '/Assets/backgrounds/fonda.jpg'); 
+    this.load.image('background', 'Assets/backgrounds/fonda.jpg'); 
     this.load.image('platform', 'plataformas.png');
     this.load.spritesheet('player_right', 'Assets/sprites/Skin_Baikal/RightBaikal.png', { frameWidth: 256, frameHeight: 256 });
     this.load.spritesheet('player_left', 'Assets/sprites/Skin_Baikal/LeftBaikal.png', { frameWidth: 256, frameHeight: 256 });
